@@ -34,7 +34,7 @@ const Portal = () => {
                 <div className="d-flex flex-column mx-3">
                   
                     <h2 className="certify-title certify-img">Certified Speakers</h2>
-                    <p className="certify-text">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
+                    <p className="certify-text mx-2">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
                 </div>
             </div>
             <div className="col-xl-4 col-sm-12 d-flex">
@@ -43,7 +43,7 @@ const Portal = () => {
                 </div>
                 <div className="d-flex flex-column mx-3">
                     <h2 className="certify-title certify-img">Connecting People</h2>
-                    <p className="certify-text">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
+                    <p className="certify-text mx-2">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
                 </div>
             </div>
             <div className="col-xl-4 col-sm-12 d-flex">
@@ -52,7 +52,7 @@ const Portal = () => {
                 </div>
                 <div className="d-flex flex-column mx-3">
                     <h2 className="certify-title certify-img">Latest Updates</h2>
-                    <p className="certify-text">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
+                    <p className="certify-text mx-2">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
                 </div>
             </div>
         </div>
