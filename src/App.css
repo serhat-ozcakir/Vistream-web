@@ -172,6 +172,16 @@
 .certify-title{
   color: #232B76;
   font-weight: bold;
+
+
+}
+
+.certify-img{
+  background-image: url('assets/Ellipse\ 9.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px;
+  
 }
 
 .certify-text{

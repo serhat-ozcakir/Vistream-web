@@ -2,6 +2,7 @@ import React from "react";
 import certified from '../assets/001-certificate.svg'
 import person from '../assets/002-group.svg'
 import world from '../assets/003-world.svg'
+import ellipse from '../assets/Ellipse 9.svg'
 
 const Portal = () => {
   return (
@@ -26,29 +27,31 @@ const Portal = () => {
     <div className="container mt-5 mb-5 py-5">
         <div className="row">
             <div className="col-xl-4 col-sm-12 d-flex">
-                <div>
+                <div className="mt-2">
                     <img src={certified} alt="" />
                 </div>
+
                 <div className="d-flex flex-column mx-3">
-                    <h2 className="certify-title">Certified Speakers</h2>
+                  
+                    <h2 className="certify-title certify-img">Certified Speakers</h2>
                     <p className="certify-text">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
                 </div>
             </div>
             <div className="col-xl-4 col-sm-12 d-flex">
-                <div>
+                <div className="mt-2">
                     <img src={person} alt="" />
                 </div>
                 <div className="d-flex flex-column mx-3">
-                    <h2 className="certify-title">Connecting People</h2>
+                    <h2 className="certify-title certify-img">Connecting People</h2>
                     <p className="certify-text">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
                 </div>
             </div>
             <div className="col-xl-4 col-sm-12 d-flex">
-                <div>
+                <div className="mt-2">
                     <img src={world} alt="" />
                 </div>
                 <div className="d-flex flex-column mx-3">
-                    <h2 className="certify-title">Latest Updates</h2>
+                    <h2 className="certify-title certify-img">Latest Updates</h2>
                     <p className="certify-text">Eabore etsu dolore magn aliqua enim ad minim veniam quis nostrud exercitas tion ullamco ipsum laboris.</p>
                 </div>
             </div>
