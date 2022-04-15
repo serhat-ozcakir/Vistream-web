@@ -180,7 +180,7 @@
   background-image: url('assets/Ellipse\ 9.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  padding: 10px;
+  padding: 9px;
   
 }
 
@@ -273,3 +273,6 @@ body {
   width: 100%;
 }
 
+.mySwiper{
+  margin-bottom: 40px;
+}
