@@ -1,38 +1,265 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: 'FSAlbert Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('FSAlbert Regular'), url('./FSAlbert\ Regular.woff') format('woff');
   }
+
+
+.date{
+  width: 60px;
+  height: 60px;
+  background-color: #232B76;
+  color: #FFFFFF;
+  font-size: 10px;
+  line-height: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.date-detail{
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.next{
+  color: #042164;
+  font-size: 21px;
+  font-family: "FSAlbertBold",sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.lorem{
+  color: #232B76;
 }
+
+.back{
+  background-color: #FFFFFF !important;
+}
+
+.info{
+  padding-top: 130px;
+  
+}
+.link-text{
+  color:#232B76 !important;
+  font-family: "FSAlbertBold",sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.section-1{
+  background-image: url('assets/Group\ 1671\ \(1\).svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.text-1{
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: "FSAlbertBoldItalic",sans-serif;
+}
+
+.text-2{
+  font-size: 36px;
+  color: #232B76;
+  
+}
+
+.text-3{
+  color: #FFFFFF;
+  font-family: "FSAlbertRegular",sans-serif;
+  font-size: 30px;
+}
+
+
+.buton-group{
+  width: 200px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.buton{
+  border-radius: 30px;
+}
+
+.card-title-color{
+  color: #042164;
+  font-size: 21px;
+  font-weight: bold;
+  font-family: "FSAlbertBoldItalic",sans-serif;
+}
+
+.card-button-color{
+  background-color: #042164;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.card-button-color:hover{
+  color: #FFFFFF;
+}
+
+.card-top{
+  background-color: #232B76;
+  color: #FFFFFF;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.speaker{
+  color: #232B76;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "FSAlbertBold",sans-serif;
+}
+
+.speaker-name{
+  color: #009FE3;
+  font-size: 18px;
+}
+
+.spekaer-button{
+  border: 1px solid #232B76;
+  color: #232B76;
+}
+.spekaer-button:hover{
+  
+  background-color: #232B76;
+  color: #FFFFFF;
+}
+
+.login{
+  width: 270px;
+  color: #232B76;
+  font-weight: bold;
+}
+
+.register_but{
+  color: #232B76;
+  font-weight: bold;
+}
+
+.card{
+  width: 250px ;
+}
+
+.card-text{
+  font-size:15px;
+  font-family: "FSAlbertRegular",sans-serif;
+  color: #333333;
+}
+
+.card-text2{
+  font-size: 17px;
+  color:#042164;
+}
+
+.portal{
+  color: #232B76;
+
+}
+.portal-title{
+  color: #232B76;
+  font-size: 40px;
+  font-family: "FSAlbertBold",sans-serif;
+  font-weight: bold;
+}
+
+.portal-text{
+  font-size: 31px;
+  padding: 0 30px 0 30px;
+  font-family: "FSAlbertRegular",sans-serif;
+
+}
+
+.certify-title{
+  color: #232B76;
+  font-weight: bold;
+}
+
+.certify-text{
+  color: #666666;
+  font-size: 18px;
+}
+
+
+.portal-main{
+  background-color:#F7F8FB ;
+  margin-top: 30px;
+}
+
+.hr{
+  border: 5px solid #042164;
+  background-color: #042164;
+  width: 320px;
+ 
+}
+
+.upcoming{
+  background-color: #F7F8FB;
+}
+
+.events{
+  color: #042164;
+}
+
+
+.register{
+  background-color: #009FE3;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.more-detail{
+  background-color: #F7F8FB;
+  color:#009FE3;
+  font-size: 13px;
+  font-weight: bold;
+  border: 1px solid #009FE3;
+  border-radius: 20px;
+}
+
+.footer{
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+
+#Upcoming { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+body {
+
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+
+  
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 300px;
+  height: 300px;
+  padding: 0px;
+  
+ 
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-color: #FFFFFF;
+
+  
+}
+
+.swiper-slide section {
+  display: block;
+  width: 100%;
+}
+
